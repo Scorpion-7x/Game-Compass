@@ -86,7 +86,7 @@ with col2:
 
 st.divider()
 
-# Scores and calculation via the weightage and from the database (game_embeddings.py)
+# Scores and calculation via the weightage and from the database (game_embeddings.npy)
 def normalize_and_score(results_df):
     if results_df.empty:
         return results_df
